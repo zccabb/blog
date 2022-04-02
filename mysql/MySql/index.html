@@ -30,19 +30,19 @@
 <meta property="og:site_name" content="ZCC的博客">
 <meta property="og:description" content="主要讲了MySQL基础知识中的查询、查询性能优化、存储引擎、数据类型、切分、复制的基础知识。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://github.com/zccabb/blog/tree/master/source/images/mysql/mysql1.png">
-<meta property="og:image" content="https://blog.zcchub.xyz/images/mysql2.png">
-<meta property="og:image" content="https://blog.zcchub.xyz/images/mysql/msql3.png">
-<meta property="og:image" content="https://blog.zcchub.xyz/images/mysql/mysql4.png">
-<meta property="og:image" content="https://blog.zcchub.xyz/images/mysql/mysql5.png">
-<meta property="og:image" content="https://blog.zcchub.xyz/images/mysql/mysql6.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zccabb/blog-img/main/mysql1.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zccabb/blog-img/main/mysql2.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zccabb/blog-img/main/msql3.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zccabb/blog-img/main/mysql4.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zccabb/blog-img/main/mysql5.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/zccabb/blog-img/main/mysql6.png">
 <meta property="article:published_time" content="2020-11-24T08:13:45.000Z">
-<meta property="article:modified_time" content="2022-04-02T20:03:09.140Z">
+<meta property="article:modified_time" content="2022-04-02T20:33:10.119Z">
 <meta property="article:author" content="Zcc">
 <meta property="article:tag" content="MySQL">
 <meta property="article:tag" content="数据库">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://github.com/zccabb/blog/tree/master/source/images/mysql/mysql1.png">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/zccabb/blog-img/main/mysql1.png">
 
 
 <link rel="canonical" href="https://blog.zcchub.xyz/mysql/MySql/">
@@ -317,7 +317,7 @@
 <h1 id="MySQL-基础"><a href="#MySQL-基础" class="headerlink" title="MySQL 基础"></a>MySQL 基础</h1><h2 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h2><hr>
 <h3 id="B-Tree-原理"><a href="#B-Tree-原理" class="headerlink" title="B+ Tree 原理"></a>B+ Tree 原理</h3><hr>
 <h4 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h4><hr>
-<p>B Tree 指的是 Balance Tree, 也就是平衡树。平衡树是一颗查找树，并且所有的叶子节点位于同一层。<br>B+ Tree 是基于 B Tree 和叶子节点顺序访问指针进行实现，它具有B Tree 的平衡性，并且通过顺序访问指针来提高区间查询的性能。<br>在 B+ Tree 中，一个节点中的 key 从左到右非递减排列，如果某个指针的左右相邻 key 分别是 $key_i$ 和 $key_i+1$，且不为 null, 则该指针指向节点的所有 key 大于等于 $key_i$ 且小于等于 $key_i+1$。<br><img data-src="https://github.com/zccabb/blog/tree/master/source/images/mysql/mysql1.png" alt="PNG" loading="lazy"></p>
+<p>B Tree 指的是 Balance Tree, 也就是平衡树。平衡树是一颗查找树，并且所有的叶子节点位于同一层。<br>B+ Tree 是基于 B Tree 和叶子节点顺序访问指针进行实现，它具有B Tree 的平衡性，并且通过顺序访问指针来提高区间查询的性能。<br>在 B+ Tree 中，一个节点中的 key 从左到右非递减排列，如果某个指针的左右相邻 key 分别是 $key_i$ 和 $key_i+1$，且不为 null, 则该指针指向节点的所有 key 大于等于 $key_i$ 且小于等于 $key_i+1$。<br><img data-src="https://raw.githubusercontent.com/zccabb/blog-img/main/mysql1.png" alt="PNG" loading="lazy"></p>
 <hr>
 <h4 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h4><hr>
 <p>进行查找操作时，首先在根节点进行二分查找，找到一个 key 所在的指针，然后递归地在指针所指向的节点进行查找。直到查找到叶子节点，然后在叶子节点上进行二分查找，找出 key 所对应的 data 。</p>
@@ -336,7 +336,7 @@
 ● 可以指定多个列作为索引列，多个索引列共同组成键。
 </code></pre>
 <p>适用于全键值、键值范围和键前缀查找，其中键前缀查找只适用于最左前缀查找。如果不是按照索引列的顺序进行查找，则无法使用索引。</p>
-<p>InnoDB 的 B+Tree 索引分为主索引和辅助索引。主索引的叶子节点 data 域记录着完整的数据记录，这种索引方式被称为聚簇索引。因为无法把数据行存放在两个不同的地方，所以一个表只能有一个聚簇索引。<br><img data-src="/../../images/mysql2.png" alt="PNG" loading="lazy"><br>辅助索引的叶子节点的 data 域记录着主键的值，因此在使用辅助索引进行查找时，需要先查找到主键值，然后再到主索引中进行查找。</p>
+<p>InnoDB 的 B+Tree 索引分为主索引和辅助索引。主索引的叶子节点 data 域记录着完整的数据记录，这种索引方式被称为聚簇索引。因为无法把数据行存放在两个不同的地方，所以一个表只能有一个聚簇索引。<br><img data-src="https://raw.githubusercontent.com/zccabb/blog-img/main/mysql2.png" alt="PNG" loading="lazy"><br>辅助索引的叶子节点的 data 域记录着主键的值，因此在使用辅助索引进行查找时，需要先查找到主键值，然后再到主索引中进行查找。</p>
 <hr>
 <h4 id="哈希索引"><a href="#哈希索引" class="headerlink" title="哈希索引"></a>哈希索引</h4><hr>
 <p>哈希索引能以 O(1) 时间进行查找，但是失去了有序性：</p>
@@ -492,9 +492,9 @@
 <hr>
 <h3 id="垂直切分"><a href="#垂直切分" class="headerlink" title="垂直切分"></a>垂直切分</h3><hr>
 <p>垂直切分是将一张表按列切分成多个表，通常是按照列的关系密集程度进行切分，也可以利用垂直切分将经常被使用的列和不经常被使用的列切分到不同的表中。</p>
-<p><img data-src="/../../images/mysql/msql3.png" alt="PNG" loading="lazy"></p>
+<p><img data-src="https://raw.githubusercontent.com/zccabb/blog-img/main/msql3.png" alt="PNG" loading="lazy"></p>
 <p>在数据库的层面使用垂直切分将按数据库中表的密集程度部署到不同的库中，例如将原来的电商数据库垂直切分成商品数据库、用户数据库等。</p>
-<p><img data-src="/../../images/mysql/mysql4.png" alt="PNG" loading="lazy"></p>
+<p><img data-src="https://raw.githubusercontent.com/zccabb/blog-img/main/mysql4.png" alt="PNG" loading="lazy"></p>
 <hr>
 <h3 id="Sharding策略"><a href="#Sharding策略" class="headerlink" title="Sharding策略"></a>Sharding策略</h3><hr>
 <pre><code>● 哈希取模：hash(key)%N;
@@ -522,7 +522,7 @@
 ● I/O线程：负责从主服务器上读取二进制日志，并写入服务器的中继日志（Relay log）。
 ● SQL线程：负责读取中继日志，解析出主服务器已经执行的数据更改并在从服务器中重放（Replay）。
 </code></pre>
-<p><img data-src="/../../images/mysql/mysql5.png" alt="PNG" loading="lazy"></p>
+<p><img data-src="https://raw.githubusercontent.com/zccabb/blog-img/main/mysql5.png" alt="PNG" loading="lazy"></p>
 <hr>
 <h3 id="读写分离"><a href="#读写分离" class="headerlink" title="读写分离"></a>读写分离</h3><hr>
 <p>主服务器处理写操作以及实时性要求比较高的读操作，而从服务器处理读操作。</p>
@@ -532,7 +532,7 @@
 ● 增加冗余，提高可用性。
 </code></pre>
 <p>读写分离常用代理方式来实现，代理服务器接收应用层传来的读写请求，然后决定转发到哪个服务器。</p>
-<p><img data-src="/../../images/mysql/mysql6.png" alt="PNG" loading="lazy"></p>
+<p><img data-src="https://raw.githubusercontent.com/zccabb/blog-img/main/mysql6.png" alt="PNG" loading="lazy"></p>
 <hr>
 
     </div>
