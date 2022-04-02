@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [- pool](#--pool)
+- [简介](#简介)
+- [简单实现](#简单实现)
+  - [MinIO BytePoolCap](#minio-bytepoolcap)
+  - [sync.Pool](#syncpool)
+- [问题分析](#问题分析)
+- [ByteBufferPool](#bytebufferpool)
+- [性能测试](#性能测试)
+- [总结](#总结)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ---
 title: 高性能字节池 - bytebufferpool 源码分析
 date: 2021-06-28 16:19:02
