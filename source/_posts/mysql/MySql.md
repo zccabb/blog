@@ -20,7 +20,7 @@ tags:
 B Tree 指的是 Balance Tree, 也就是平衡树。平衡树是一颗查找树，并且所有的叶子节点位于同一层。
 B+ Tree 是基于 B Tree 和叶子节点顺序访问指针进行实现，它具有B Tree 的平衡性，并且通过顺序访问指针来提高区间查询的性能。
 在 B+ Tree 中，一个节点中的 key 从左到右非递减排列，如果某个指针的左右相邻 key 分别是 $key_i$ 和 $key_i+1$，且不为 null, 则该指针指向节点的所有 key 大于等于 $key_i$ 且小于等于 $key_i+1$。
-![PNG](https://github.com/zccabb/blog/tree/master/source/images/mysql/mysql1.png)
+![PNG](https://raw.githubusercontent.com/zccabb/blog-img/main/mysql1.png)
 
 ---
 #### 操作
@@ -59,7 +59,7 @@ B+ Tree 是基于 B Tree 和叶子节点顺序访问指针进行实现，它具�
 适用于全键值、键值范围和键前缀查找，其中键前缀查找只适用于最左前缀查找。如果不是按照索引列的顺序进行查找，则无法使用索引。
 
 InnoDB 的 B+Tree 索引分为主索引和辅助索引。主索引的叶子节点 data 域记录着完整的数据记录，这种索引方式被称为聚簇索引。因为无法把数据行存放在两个不同的地方，所以一个表只能有一个聚簇索引。
-![PNG](../../images/mysql2.png)
+![PNG](https://raw.githubusercontent.com/zccabb/blog-img/main/mysql2.png)
 辅助索引的叶子节点的 data 域记录着主键的值，因此在使用辅助索引进行查找时，需要先查找到主键值，然后再到主索引中进行查找。
 
 ---
@@ -351,11 +351,11 @@ MySQL 提供了 FROM_UNIXTIME() 函数把 UNIX 时间戳转换为日期，并提
 
 垂直切分是将一张表按列切分成多个表，通常是按照列的关系密集程度进行切分，也可以利用垂直切分将经常被使用的列和不经常被使用的列切分到不同的表中。
 
-![PNG](../../images/mysql/msql3.png)
+![PNG](https://raw.githubusercontent.com/zccabb/blog-img/main/msql3.png)
 
 在数据库的层面使用垂直切分将按数据库中表的密集程度部署到不同的库中，例如将原来的电商数据库垂直切分成商品数据库、用户数据库等。
 
-![PNG](../../images/mysql/mysql4.png)
+![PNG](https://raw.githubusercontent.com/zccabb/blog-img/main/mysql4.png)
 
 ---
 ### Sharding策略
@@ -399,7 +399,7 @@ MySQL 提供了 FROM_UNIXTIME() 函数把 UNIX 时间戳转换为日期，并提
     ● I/O线程：负责从主服务器上读取二进制日志，并写入服务器的中继日志（Relay log）。
     ● SQL线程：负责读取中继日志，解析出主服务器已经执行的数据更改并在从服务器中重放（Replay）。
 
-![PNG](../../images/mysql/mysql5.png)
+![PNG](https://raw.githubusercontent.com/zccabb/blog-img/main/mysql5.png)
 
 ---
 ### 读写分离
@@ -414,6 +414,6 @@ MySQL 提供了 FROM_UNIXTIME() 函数把 UNIX 时间戳转换为日期，并提
     ● 增加冗余，提高可用性。
 读写分离常用代理方式来实现，代理服务器接收应用层传来的读写请求，然后决定转发到哪个服务器。
 
-![PNG](../../images/mysql/mysql6.png)
+![PNG](https://raw.githubusercontent.com/zccabb/blog-img/main/mysql6.png)
 
 ---
