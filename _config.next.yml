@@ -140,7 +140,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: https://cdn.jsdelivr.net/gh/MaoLongLong/images/202112252146469.png
+  url: https://avatars.githubusercontent.com/u/76942195?s=400&u=2b353e0c57354e0b2dca62891815c7e4fb88db4a&v=4
   # If true, the avatar will be displayed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
@@ -297,7 +297,7 @@ related_posts:
 # Easily browse and edit blog source code online.
 post_edit:
   enable: true
-  url: https://github.com/MaoLongLong/blog/tree/main/source/ # Link for view source
+  url: https://github.com/zccabb/blog/tree/master/source/ # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
