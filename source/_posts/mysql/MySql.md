@@ -6,7 +6,9 @@ tags:
   - MySQL
   - 数据库
 ---
-主要讲了MySQL基础知识中的查询、查询性能优化、存储引擎、数据类型、切分、复制。
+<center> 主要讲了MySQL基础知识中的查询、查询性能优化、存储引擎、数据类型、切分、复制。</center>
+
+---
 <!-- more -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
