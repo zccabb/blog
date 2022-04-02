@@ -65,6 +65,15 @@
   </url>
   
   <url>
+    <loc>https://blog.zcchub.xyz/mysql/MySql/</loc>
+    
+    <lastmod>2022-04-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.zcchub.xyz/tool/vagrant/</loc>
     
     <lastmod>2022-04-02</lastmod>
@@ -189,6 +198,20 @@
   </url>
   
   <url>
+    <loc>https://blog.zcchub.xyz/tags/mysql/</loc>
+    <lastmod>2022-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zcchub.xyz/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2022-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.zcchub.xyz/tags/Vagrant/</loc>
     <lastmod>2022-04-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -269,6 +292,13 @@
   
   <url>
     <loc>https://blog.zcchub.xyz/categories/Java/</loc>
+    <lastmod>2022-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zcchub.xyz/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2022-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
