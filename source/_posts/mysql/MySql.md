@@ -10,61 +10,7 @@ tags:
 
 ---
 <!-- more -->
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-- [MySQL基础](#mysql%E5%9F%BA%E7%A1%80)
-  - [索引](#%E7%B4%A2%E5%BC%95)
-    - [B+ Tree 原理](#b-tree-%E5%8E%9F%E7%90%86)
-      - [数据结构](#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
-      - [操作](#%E6%93%8D%E4%BD%9C)
-      - [与红黑树的比较](#%E4%B8%8E%E7%BA%A2%E9%BB%91%E6%A0%91%E7%9A%84%E6%AF%94%E8%BE%83)
-    - [MySQL 索引](#mysql-%E7%B4%A2%E5%BC%95)
-      - [B+ Tree 索引](#b-tree-%E7%B4%A2%E5%BC%95)
-      - [哈希索引](#%E5%93%88%E5%B8%8C%E7%B4%A2%E5%BC%95)
-      - [全文索引](#%E5%85%A8%E6%96%87%E7%B4%A2%E5%BC%95)
-      - [空间数据索引](#%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E7%B4%A2%E5%BC%95)
-    - [索引优化](#%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96)
-      - [独立的列](#%E7%8B%AC%E7%AB%8B%E7%9A%84%E5%88%97)
-      - [多列索引](#%E5%A4%9A%E5%88%97%E7%B4%A2%E5%BC%95)
-      - [索引列的顺序](#%E7%B4%A2%E5%BC%95%E5%88%97%E7%9A%84%E9%A1%BA%E5%BA%8F)
-      - [前缀索引](#%E5%89%8D%E7%BC%80%E7%B4%A2%E5%BC%95)
-      - [覆盖索引](#%E8%A6%86%E7%9B%96%E7%B4%A2%E5%BC%95)
-    - [索引的优点](#%E7%B4%A2%E5%BC%95%E7%9A%84%E4%BC%98%E7%82%B9)
-      - [索引的使用条件](#%E7%B4%A2%E5%BC%95%E7%9A%84%E4%BD%BF%E7%94%A8%E6%9D%A1%E4%BB%B6)
-  - [查询性能优化](#%E6%9F%A5%E8%AF%A2%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96)
-    - [使用 Explain 进行分析](#%E4%BD%BF%E7%94%A8-explain-%E8%BF%9B%E8%A1%8C%E5%88%86%E6%9E%90)
-    - [优化数据访问](#%E4%BC%98%E5%8C%96%E6%95%B0%E6%8D%AE%E8%AE%BF%E9%97%AE)
-      - [减少请求的数据量](#%E5%87%8F%E5%B0%91%E8%AF%B7%E6%B1%82%E7%9A%84%E6%95%B0%E6%8D%AE%E9%87%8F)
-      - [减少服务器端扫描的行数](#%E5%87%8F%E5%B0%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E6%89%AB%E6%8F%8F%E7%9A%84%E8%A1%8C%E6%95%B0)
-    - [重构查询方式](#%E9%87%8D%E6%9E%84%E6%9F%A5%E8%AF%A2%E6%96%B9%E5%BC%8F)
-      - [切分大查询](#%E5%88%87%E5%88%86%E5%A4%A7%E6%9F%A5%E8%AF%A2)
-      - [分解大连接查询](#%E5%88%86%E8%A7%A3%E5%A4%A7%E8%BF%9E%E6%8E%A5%E6%9F%A5%E8%AF%A2)
-  - [存储引擎](#%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E)
-    - [InnoDB](#innodb)
-    - [MyISAM](#myisam)
-    - [比较](#%E6%AF%94%E8%BE%83)
-    - [数据类型](#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
-      - [整型](#%E6%95%B4%E5%9E%8B)
-      - [浮点数](#%E6%B5%AE%E7%82%B9%E6%95%B0)
-      - [字符串](#%E5%AD%97%E7%AC%A6%E4%B8%B2)
-    - [时间和日期](#%E6%97%B6%E9%97%B4%E5%92%8C%E6%97%A5%E6%9C%9F)
-      - [DATETIME](#datetime)
-      - [TIMESTAMP](#timestamp)
-  - [切分](#%E5%88%87%E5%88%86)
-    - [水平切分](#%E6%B0%B4%E5%B9%B3%E5%88%87%E5%88%86)
-    - [垂直切分](#%E5%9E%82%E7%9B%B4%E5%88%87%E5%88%86)
-    - [Sharding策略](#sharding%E7%AD%96%E7%95%A5)
-    - [Sharding存在的问题](#sharding%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98)
-      - [事务问题](#%E4%BA%8B%E5%8A%A1%E9%97%AE%E9%A2%98)
-      - [连接](#%E8%BF%9E%E6%8E%A5)
-      - [ID唯一性](#id%E5%94%AF%E4%B8%80%E6%80%A7)
-  - [复制](#%E5%A4%8D%E5%88%B6)
-    - [主从复制](#%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6)
-    - [读写分离](#%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-# MySQL基础
-
+# MySQL 基础
 ## 索引
 ---
 ### B+ Tree 原理
@@ -74,7 +20,7 @@ tags:
 B Tree 指的是 Balance Tree, 也就是平衡树。平衡树是一颗查找树，并且所有的叶子节点位于同一层。
 B+ Tree 是基于 B Tree 和叶子节点顺序访问指针进行实现，它具有B Tree 的平衡性，并且通过顺序访问指针来提高区间查询的性能。
 在 B+ Tree 中，一个节点中的 key 从左到右非递减排列，如果某个指针的左右相邻 key 分别是 $key_i$ 和 $key_i+1$，且不为 null, 则该指针指向节点的所有 key 大于等于 $key_i$ 且小于等于 $key_i+1$。
-![PNG](../../images/mysql1.png)
+![PNG](https://github.com/zccabb/blog/tree/master/source/images/mysql/mysql1.png)
 
 ---
 #### 操作
