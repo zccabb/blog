@@ -174,12 +174,12 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: fa fa-globe
-  title: Links
+  title: 友链
   # Available values: block | inline
-  layout: block
+  layout: inline
 
 links:
-  #Title: https://example.com
+  MaoLongLong: https://chensl.me
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
