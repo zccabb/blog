@@ -1,3 +1,8 @@
+https://blog.zcchub.xyz/tool/vagrant/
+https://blog.zcchub.xyz/vps/selfhosted/
+https://blog.zcchub.xyz/about/index.html
+https://blog.zcchub.xyz/categories/index.html
+https://blog.zcchub.xyz/tags/index.html
 https://blog.zcchub.xyz/cloud/overlayfs/
 https://blog.zcchub.xyz/github/first-pr/
 https://blog.zcchub.xyz/golang/bytebufferpool/
@@ -6,11 +11,6 @@ https://blog.zcchub.xyz/golang/lock-free-queue/
 https://blog.zcchub.xyz/java/reentrant-lock/
 https://blog.zcchub.xyz/java/volatile/
 https://blog.zcchub.xyz/mysql/MySql/
-https://blog.zcchub.xyz/tool/vagrant/
-https://blog.zcchub.xyz/vps/selfhosted/
-https://blog.zcchub.xyz/about/index.html
-https://blog.zcchub.xyz/categories/index.html
-https://blog.zcchub.xyz/tags/index.html
 https://blog.zcchub.xyz/
 https://blog.zcchub.xyz/tags/Linux/
 https://blog.zcchub.xyz/tags/Docker/
@@ -22,7 +22,7 @@ https://blog.zcchub.xyz/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/
 https://blog.zcchub.xyz/tags/%E5%B9%B6%E5%8F%91/
 https://blog.zcchub.xyz/tags/CAS/
 https://blog.zcchub.xyz/tags/unsafe/
-https://blog.zcchub.xyz/tags/mysql/
+https://blog.zcchub.xyz/tags/mysql-S/
 https://blog.zcchub.xyz/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
 https://blog.zcchub.xyz/tags/Vagrant/
 https://blog.zcchub.xyz/tags/VirtualBox/
