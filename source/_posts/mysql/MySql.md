@@ -3,9 +3,11 @@ title: MySQL基础
 date: 2020-11-24 16:13:45
 categories: 数据库
 tags:
-  - mysql S
+  - MySQL
   - 数据库
 ---
+主要讲了MySQL基础知识中的查询、查询性能优化、存储引擎、数据类型、切分、复制。
+<!-- more -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 - [MySQL基础](#mysql%E5%9F%BA%E7%A1%80)
@@ -329,9 +331,9 @@ SELECT * FROM post WHERE post.id IN (123,456,567,9098,8904);
     ● 其他特性：MyISAM支持压缩表和空间数据索引。
 
 ---
-### 数据类型
+## 数据类型
 ---
-#### 整型
+### 整型
 ---
 
 TINYINT, SMALLINT, MEDIUMINT, INT, BIGINT 分别使用 8, 16, 24, 32, 64 位存储空间，一般情况下越小的列越好。
@@ -339,7 +341,7 @@ TINYINT, SMALLINT, MEDIUMINT, INT, BIGINT 分别使用 8, 16, 24, 32, 64 位存�
 INT(11) 中的数字只是规定了交互工具显示字符的个数，对于存储和计算来说是没有意义的。
 
 ---
-#### 浮点数
+### 浮点数
 ---
 
 FLOAT 和 DOUBLE 为浮点类型，DECIMAL 为高精度小数类型。CPU 原生支持浮点运算，但是不支持 DECIMAl 类型的计算，因此 DECIMAL 的计算比浮点类型需要更高的代价。
@@ -347,7 +349,7 @@ FLOAT 和 DOUBLE 为浮点类型，DECIMAL 为高精度小数类型。CPU 原生
 FLOAT、DOUBLE 和 DECIMAL 都可以指定列宽，例如 DECIMAL(18, 9) 表示总共 18 位，取 9 位存储小数部分，剩下 9 位存储整数部分。
 
 ---
-#### 字符串
+### 字符串
 ---
 
 主要有 CHAR 和 VARCHAR 两种类型，一种是定长的，一种是变长的。
