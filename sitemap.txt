@@ -1,4 +1,3 @@
-https://blog.zcchub.xyz/tags/index.html
 https://blog.zcchub.xyz/cloud/overlayfs/
 https://blog.zcchub.xyz/github/first-pr/
 https://blog.zcchub.xyz/golang/bytebufferpool/
@@ -10,12 +9,14 @@ https://blog.zcchub.xyz/tool/vagrant/
 https://blog.zcchub.xyz/vps/selfhosted/
 https://blog.zcchub.xyz/about/index.html
 https://blog.zcchub.xyz/categories/index.html
+https://blog.zcchub.xyz/tags/index.html
 https://blog.zcchub.xyz/
 https://blog.zcchub.xyz/tags/Linux/
 https://blog.zcchub.xyz/tags/Docker/
 https://blog.zcchub.xyz/tags/OverlayFS/
 https://blog.zcchub.xyz/tags/chroot/
 https://blog.zcchub.xyz/tags/LeetCode/
+https://blog.zcchub.xyz/tags/pool/
 https://blog.zcchub.xyz/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/
 https://blog.zcchub.xyz/tags/%E5%B9%B6%E5%8F%91/
 https://blog.zcchub.xyz/tags/CAS/
