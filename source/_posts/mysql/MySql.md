@@ -1,4 +1,5 @@
 ---
+mathjax: true
 title: MySQL基础
 date: 2020-11-24 16:13:45
 categories: 数据库
