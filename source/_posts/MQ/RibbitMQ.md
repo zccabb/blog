@@ -1,9 +1,8 @@
 ---
 mathjax: true
-title: MySQL基础
+title: RabbitMQ
 date: 2022-4-3 16:13:45
-categories: 数据库
+categories: 消息队列
 tags:
-  - MySQL
-  - 数据库
+  - 消息队列
 ---
