@@ -1,9 +1,4 @@
-https://blog.zcchub.xyz/mysql/MySql/
-https://blog.zcchub.xyz/tool/vagrant/
-https://blog.zcchub.xyz/vps/selfhosted/
-https://blog.zcchub.xyz/about/index.html
-https://blog.zcchub.xyz/categories/index.html
-https://blog.zcchub.xyz/tags/index.html
+https://blog.zcchub.xyz/MQ/RibbitMQ/
 https://blog.zcchub.xyz/cloud/overlayfs/
 https://blog.zcchub.xyz/github/first-pr/
 https://blog.zcchub.xyz/golang/bytebufferpool/
@@ -11,7 +6,14 @@ https://blog.zcchub.xyz/golang/gobreaker/
 https://blog.zcchub.xyz/golang/lock-free-queue/
 https://blog.zcchub.xyz/java/reentrant-lock/
 https://blog.zcchub.xyz/java/volatile/
+https://blog.zcchub.xyz/mysql/MySql/
+https://blog.zcchub.xyz/tool/vagrant/
+https://blog.zcchub.xyz/vps/selfhosted/
+https://blog.zcchub.xyz/about/index.html
+https://blog.zcchub.xyz/categories/index.html
+https://blog.zcchub.xyz/tags/index.html
 https://blog.zcchub.xyz/
+https://blog.zcchub.xyz/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/
 https://blog.zcchub.xyz/tags/Linux/
 https://blog.zcchub.xyz/tags/Docker/
 https://blog.zcchub.xyz/tags/OverlayFS/
@@ -32,6 +34,7 @@ https://blog.zcchub.xyz/tags/Heroku/
 https://blog.zcchub.xyz/tags/Dokku/
 https://blog.zcchub.xyz/tags/self-hosted/
 https://blog.zcchub.xyz/tags/CapRover/
+https://blog.zcchub.xyz/categories/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/
 https://blog.zcchub.xyz/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/
 https://blog.zcchub.xyz/categories/GitHub/
 https://blog.zcchub.xyz/categories/Golang/

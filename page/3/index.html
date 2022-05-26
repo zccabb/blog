@@ -25,21 +25,21 @@
 
     <meta property="og:type" content="website">
 <meta property="og:title" content="ZCC的博客">
-<meta property="og:url" content="https://blog.zcchub.xyz/tags/pool/index.html">
+<meta property="og:url" content="https://blog.zcchub.xyz/page/3/index.html">
 <meta property="og:site_name" content="ZCC的博客">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Zcc">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://blog.zcchub.xyz/tags/pool/">
+<link rel="canonical" href="https://blog.zcchub.xyz/page/3/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"tags/pool/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"page/3/index.html","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>标签: pool | ZCC的博客</title>
+<title>ZCC的博客</title>
   
 
 
@@ -70,7 +70,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <p class="site-title">ZCC的博客</p>
+      <h1 class="site-title">ZCC的博客</h1>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">天道酬勤</p>
@@ -219,50 +219,111 @@
 </noscript>
 
 
-    <div class="main-inner tag posts-collapse">
+    <div class="main-inner index posts-expand">
+
+    
 
 
+<div class="post-block">
   
   
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">pool
-          <small>标签</small>
-        </h1>
-      </div>
 
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.zcchub.xyz/java/reentrant-lock/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/76942195?s=400&u=2b353e0c57354e0b2dca62891815c7e4fb88db4a&v=4">
+      <meta itemprop="name" content="Zcc">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ZCC的博客">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | ZCC的博客">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/java/reentrant-lock/" class="post-title-link" itemprop="url">【Java 并发】重入锁（ReentrantLock）</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-11-24 16:13:45" itemprop="dateCreated datePublished" datetime="2020-11-24T16:13:45+08:00">2020-11-24</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>5.3k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>5 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="什么是“重入”"><a href="#什么是“重入”" class="headerlink" title="什么是“重入”"></a>什么是“重入”</h2><p>Re-Entrant-Lock 翻译成重入锁也是非常贴切的。之所以这么叫，那是因为这种锁是可以反复进入的。当然，这里的反复<strong>仅仅局限于一个线程</strong>，观察下面的代码， <code>f1</code> 锁住 <code>lock</code> 之后， <code>f2</code> 依然能继续获取到 <code>lock</code> 并执行，因为它们都属于主线程。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/java/reentrant-lock/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-06-28T16:19:02+08:00"
-              content="2021-06-28">
-          06-28
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/golang/bytebufferpool/" itemprop="url">
-            <span itemprop="name">高性能字节池 - bytebufferpool 源码分析</span>
-          </a>
-      </div>
-
+    <footer class="post-footer">
+        <div class="post-eof"></div>
       
-    </header>
+    </footer>
   </article>
+</div>
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+  </nav>
 
 </div>
   </main>
