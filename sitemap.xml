@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.zcchub.xyz/categories/index.html</loc>
+    
+    <lastmod>2022-05-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zcchub.xyz/tags/index.html</loc>
+    
+    <lastmod>2022-05-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.zcchub.xyz/MQ/RibbitMQ/</loc>
     
     <lastmod>2022-05-26</lastmod>
@@ -30,6 +48,15 @@
   
   <url>
     <loc>https://blog.zcchub.xyz/golang/bytebufferpool/</loc>
+    
+    <lastmod>2022-05-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zcchub.xyz/golang/easy-network/</loc>
     
     <lastmod>2022-05-26</lastmod>
     
@@ -109,24 +136,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://blog.zcchub.xyz/categories/index.html</loc>
-    
-    <lastmod>2022-05-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zcchub.xyz/tags/index.html</loc>
-    
-    <lastmod>2022-05-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://blog.zcchub.xyz/</loc>
@@ -180,6 +189,20 @@
   
   <url>
     <loc>https://blog.zcchub.xyz/tags/pool/</loc>
+    <lastmod>2022-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zcchub.xyz/tags/golang%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2022-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zcchub.xyz/tags/net/</loc>
     <lastmod>2022-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
