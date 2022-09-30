@@ -1,3 +1,6 @@
+https://blog.zcchub.xyz/java/volatile/
+https://blog.zcchub.xyz/mysql/MySql/
+https://blog.zcchub.xyz/tool/vagrant/
 https://blog.zcchub.xyz/vps/selfhosted/
 https://blog.zcchub.xyz/about/index.html
 https://blog.zcchub.xyz/categories/index.html
@@ -10,9 +13,6 @@ https://blog.zcchub.xyz/golang/easy-network/
 https://blog.zcchub.xyz/golang/gobreaker/
 https://blog.zcchub.xyz/golang/lock-free-queue/
 https://blog.zcchub.xyz/java/reentrant-lock/
-https://blog.zcchub.xyz/java/volatile/
-https://blog.zcchub.xyz/mysql/MySql/
-https://blog.zcchub.xyz/tool/vagrant/
 https://blog.zcchub.xyz/
 https://blog.zcchub.xyz/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/
 https://blog.zcchub.xyz/tags/Linux/
