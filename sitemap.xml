@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://zccabb.github.io/MQ/RibbitMQ/</loc>
+    <loc>https://zccabb.github.io/blog/MQ/RibbitMQ/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/cloud/overlayfs/</loc>
+    <loc>https://zccabb.github.io/blog/cloud/overlayfs/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/github/first-pr/</loc>
+    <loc>https://zccabb.github.io/blog/github/first-pr/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/golang/bytebufferpool/</loc>
+    <loc>https://zccabb.github.io/blog/golang/bytebufferpool/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/golang/easy-network/</loc>
+    <loc>https://zccabb.github.io/blog/golang/easy-network/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/golang/gobreaker/</loc>
+    <loc>https://zccabb.github.io/blog/golang/gobreaker/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/golang/lock-free-queue/</loc>
+    <loc>https://zccabb.github.io/blog/golang/lock-free-queue/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/java/reentrant-lock/</loc>
+    <loc>https://zccabb.github.io/blog/java/reentrant-lock/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/java/volatile/</loc>
+    <loc>https://zccabb.github.io/blog/java/volatile/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/mysql/MySql/</loc>
+    <loc>https://zccabb.github.io/blog/mysql/MySql/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tool/vagrant/</loc>
+    <loc>https://zccabb.github.io/blog/tool/vagrant/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/vps/selfhosted/</loc>
+    <loc>https://zccabb.github.io/blog/vps/selfhosted/</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/about/index.html</loc>
+    <loc>https://zccabb.github.io/blog/about/index.html</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/categories/index.html</loc>
+    <loc>https://zccabb.github.io/blog/categories/index.html</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/index.html</loc>
+    <loc>https://zccabb.github.io/blog/tags/index.html</loc>
     
     <lastmod>2023-05-18</lastmod>
     
@@ -138,7 +138,7 @@
   
 
   <url>
-    <loc>https://zccabb.github.io/</loc>
+    <loc>https://zccabb.github.io/blog</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -146,161 +146,161 @@
 
   
   <url>
-    <loc>https://zccabb.github.io/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
+    <loc>https://zccabb.github.io/blog/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/Linux/</loc>
+    <loc>https://zccabb.github.io/blog/tags/Linux/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/Docker/</loc>
+    <loc>https://zccabb.github.io/blog/tags/Docker/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/OverlayFS/</loc>
+    <loc>https://zccabb.github.io/blog/tags/OverlayFS/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/chroot/</loc>
+    <loc>https://zccabb.github.io/blog/tags/chroot/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/LeetCode/</loc>
+    <loc>https://zccabb.github.io/blog/tags/LeetCode/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/pool/</loc>
+    <loc>https://zccabb.github.io/blog/tags/pool/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/golang%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://zccabb.github.io/blog/tags/golang%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/net/</loc>
+    <loc>https://zccabb.github.io/blog/tags/net/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
+    <loc>https://zccabb.github.io/blog/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/%E5%B9%B6%E5%8F%91/</loc>
+    <loc>https://zccabb.github.io/blog/tags/%E5%B9%B6%E5%8F%91/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/CAS/</loc>
+    <loc>https://zccabb.github.io/blog/tags/CAS/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/unsafe/</loc>
+    <loc>https://zccabb.github.io/blog/tags/unsafe/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/MySQL/</loc>
+    <loc>https://zccabb.github.io/blog/tags/MySQL/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://zccabb.github.io/blog/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/Vagrant/</loc>
+    <loc>https://zccabb.github.io/blog/tags/Vagrant/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/VirtualBox/</loc>
+    <loc>https://zccabb.github.io/blog/tags/VirtualBox/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/Vultr/</loc>
+    <loc>https://zccabb.github.io/blog/tags/Vultr/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/PaaS/</loc>
+    <loc>https://zccabb.github.io/blog/tags/PaaS/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/Heroku/</loc>
+    <loc>https://zccabb.github.io/blog/tags/Heroku/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/Dokku/</loc>
+    <loc>https://zccabb.github.io/blog/tags/Dokku/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/self-hosted/</loc>
+    <loc>https://zccabb.github.io/blog/tags/self-hosted/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/tags/CapRover/</loc>
+    <loc>https://zccabb.github.io/blog/tags/CapRover/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -309,56 +309,56 @@
 
   
   <url>
-    <loc>https://zccabb.github.io/categories/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
+    <loc>https://zccabb.github.io/blog/categories/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/</loc>
+    <loc>https://zccabb.github.io/blog/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/categories/GitHub/</loc>
+    <loc>https://zccabb.github.io/blog/categories/GitHub/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/categories/Golang/</loc>
+    <loc>https://zccabb.github.io/blog/categories/Golang/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/categories/Java/</loc>
+    <loc>https://zccabb.github.io/blog/categories/Java/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://zccabb.github.io/blog/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://zccabb.github.io/blog/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zccabb.github.io/categories/VPS/</loc>
+    <loc>https://zccabb.github.io/blog/categories/VPS/</loc>
     <lastmod>2023-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
